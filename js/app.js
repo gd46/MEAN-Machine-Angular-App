@@ -14,8 +14,7 @@ angular.module('firstApp', [])
         vm.messsage = 'Hello World';
 
         // dfine a list of items
-        vm.computers {
-            {
+        vm.computers = [{
                 name: 'Macbook Pro',
                 color: 'Silver',
                 nerdness: 7
@@ -29,6 +28,6 @@ angular.module('firstApp', [])
                 nerdness: 5
             }
 
-        }
+        ]
 
     });
