@@ -11,7 +11,7 @@ angular.module('firstApp', [])
         // this lets them be available to our views
 
         // define a basic variable
-        vm.messsage = 'Hello World';
+        vm.message = "Hello World";
 
         // dfine a list of items
         vm.computers = [{
