@@ -26,8 +26,21 @@ angular.module('firstApp', [])
                 name: 'Chromebook',
                 color: 'Black',
                 nerdness: 5
-            }
+            }];
 
-        ]
+        vm.computerData = {};
+
+        vm.addComputer = function(){
+            // add a computer to the list
+
+            vm.computers.push({
+                name: vm.computerData.name,
+                color: vm.computerData.color,
+                nerdness: vm.computerData.nerdness
+            });
+
+            vm.computerData = {};
+        }
+
 
     });
